@@ -1,0 +1,292 @@
+/*css reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    margin: 25px 30 px;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+#logo img {
+    
+    border-radius: 10px;
+    margin: 5px 25px;
+    display: inline-block;
+    width: 70px;
+    height: 60px;
+}
+
+#logo div{
+    margin-left: 7px;
+}
+
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul{
+    display: flex;
+    
+   
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    margin-top: 0px;
+
+   
+    
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+   
+}
+
+#navbar ul li a:hover{
+    background-color:   rgb(87, 86, 86) ;
+    color: white;
+    border-radius: 10px;
+}
+
+/*Home section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 385px;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('fbg2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: -1;
+    ;
+
+
+}
+
+.h-primary{
+    color: rgb(37, 31, 29);
+    text-align: center;
+    font-size: 3.8rem;
+    padding: 5px;
+    font-family: 'Cinzel', serif;
+    margin-top: 150px;
+   
+    
+}
+
+#home p{
+    margin: 5px;
+    color:rgb(18, 67, 95);
+    font-size: 2.1rem;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 20px;
+
+
+}
+
+.btn{
+    padding: 7px 15px;
+    background-color: rgb(184, 39, 39);
+    color: white;
+   
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-family: 'Inconsolata', monospace;
+    
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(104, 89, 89, 0.911);
+    
+}
+
+#quote{
+    margin: 10px;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    font-family: 'Bad Script', cursive;
+}
+
+
+/*Menu section*/
+
+.menu-container h1{
+    padding: 20px;
+    margin-top: 120px;
+    color: #dda712;
+    font-size: 3.5rem;
+}
+
+#menu{
+    margin: 15px 40px;
+    display: flex;
+}
+
+#menu .box{
+margin: 10px 15px;
+}
+
+#menu .box img{
+    height: 260px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.h-secondary{
+    font-family: 'Cinzel', serif;
+    color: rgb(100, 51, 16);
+    text-align: center;
+
+}
+
+/*our services*/
+
+#services{
+    
+    margin: 15px 200px;
+    display:flex;
+}
+
+#services .box{
+    border: 2px solid rgb(196, 78, 23);
+    border-radius: 20px;
+    margin: 0px 30px;
+    padding: 10px;
+    
+}
+
+#services .box img{
+    height: 200px;
+    
+    
+}
+.service-container h1{
+    padding: 20px;
+    color: brown;
+    font-size: 3rem;
+    margin-top: 15px;
+
+}
+
+/*contact us*/
+
+#contact h1{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#contact{
+    position: relative;
+   
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#contact-box .form-group{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#contact-box form{
+    width: 30%;
+   
+}
+
+#contact-box input{
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#contact-box label{
+    font-size: 1.2rem;
+}
+
+#contact-box textarea{
+    border-radius: 5px;
+}
+
+
+
+#contact::before{
+    content: "";
+    background: url('contact1.jpg')no-repeat center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 7px;
+}
+    
+
+
+
+
+    
+
+
